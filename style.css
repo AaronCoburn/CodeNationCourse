@@ -35,14 +35,14 @@ body{
 } */
 .nf_bar ,a{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     /* align-items: ; */
     background-color: #f5b32f;
-    padding: 10px; 
+    padding: 10px 30px; 
     /* font-size: 20px; */
     color: #1c1c1c;
     text-decoration: none;
-
+    /* width: 100%; */
 }
 
 .nf_bar a:hover{
@@ -76,7 +76,7 @@ p{
     display: flex;
     justify-content: center;
     text-align: center;
-    color: #f5b32f;
+    color: #ffffff;
     margin: 125px 80px;
 }
 
@@ -101,11 +101,11 @@ h2{
     /* padding: 20px; */
 }
 
-@media only screen and (max-width: 500px){
+/* @media only screen and (max-width: 500px){
     .img2{
         margin: 0 80px;
     }
-}
+} */
 
 .img2 img{
     width: 40%;
@@ -148,7 +148,8 @@ h2{
 }
 
 q{
-    padding: 130px 90px 130px 90px;
+    /* padding: 130px 90px 130px 90px; */
+    margin: 0 18px;
     size: auto;
     /* width: inherit;
     height: inherit; */
