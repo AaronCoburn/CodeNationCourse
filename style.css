@@ -18,21 +18,21 @@ body{
     font-size: 3vw;
 }
 
-.nf_bar{
+/* .nf_bar{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     background-color: #f5b32f;
     color: black;
     text-align: center;
-    /* gap: 10%; */
-    /* font-weight: 800; */
-    /* font-size: 40%; */
-    /* padding: 2%; */
+    gap: 10%;
+    font-weight: 800;
+    font-size: 40%;
+    padding: 2%;
     margin: 10px;
     width: 100%;
-}
+} */
 .nf_bar ,a{
     display: flex;
     justify-content: space-evenly;
@@ -57,7 +57,7 @@ h1{
     display: flex;
     justify-content: center;
     color: #f5b32f;
-    margin: 20px 0 0 0;
+    margin: 66px 0 ;
 }
 
 img{
@@ -68,6 +68,7 @@ img{
 .img1{
     display: flex; 
     justify-content: center;
+    margin: 0 40px 60px 40px;
     /* flex-wrap: wrap; */
 }
 
